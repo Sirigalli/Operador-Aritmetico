@@ -38,34 +38,34 @@ var readline = require('readline-sync') ;
 // → Seu código aqui:
 
 
-// let carrinho = {
-//   produtos: [
-//     produto1 = [
-//       nome = readline.question("Digite o nome do primeiro produto: "),
-//       preco = readline.questionFloat("Digite o preco do primeiro produto: ")
-//     ],
-//     produto2 = [
-//       nome = readline.question("Digite o nome do segundo produto: "),
-//       preco = readline.questionFloat("Digite o preco do segundo produto: ")
-//     ],
-//     produto3 = [
-//       nome = readline.question("Digite o nome do terceiro produto: "),
-//       preco = readline.questionFloat("Digite o preco do terceiro produto: ")
-//     ]
-//   ]
-// };
+let carrinho = {
+  produtos: [
+    produto1 = [
+      nome = readline.question("Digite o nome do primeiro produto: "),
+      preco = readline.questionFloat("Digite o preco do primeiro produto: ")
+    ],
+    produto2 = [
+      nome = readline.question("Digite o nome do segundo produto: "),
+      preco = readline.questionFloat("Digite o preco do segundo produto: ")
+    ],
+    produto3 = [
+      nome = readline.question("Digite o nome do terceiro produto: "),
+      preco = readline.questionFloat("Digite o preco do terceiro produto: ")
+    ]
+  ]
+};
 
-// let valorTotal = (carrinho.produtos[0][1] + carrinho.produtos[1][1] + carrinho.produtos[2][1])
-// console.log(`O valor total do carrinho e: ${valorTotal}`);
+let valorTotal = (carrinho.produtos[0][1] + carrinho.produtos[1][1] + carrinho.produtos[2][1])
+console.log(`O valor total do carrinho e: ${valorTotal}`);
 
-// let valorMedio = (carrinho.produtos[0][1] + carrinho.produtos[1][1] + carrinho.produtos[2][1]) / 3;
-// console.log(`O valor medio das compras e: ${valorMedio}`);
+let valorMedio = (carrinho.produtos[0][1] + carrinho.produtos[1][1] + carrinho.produtos[2][1]) / 3;
+console.log(`O valor medio das compras e: ${valorMedio}`);
 
-// console.table(carrinho);
+console.table(carrinho);
 
-// console.log(`O carrinho possui ${carrinho.produtos.length} produtos.`);
-// console.log(`O valor total dos produtos é R$${valorTotal}.`);
-// console.log(`O valor medio dos produtos é R$${valorMedio}.`);
+console.log(`O carrinho possui ${carrinho.produtos.length} produtos.`);
+console.log(`O valor total dos produtos é R$${valorTotal}.`);
+console.log(`O valor medio dos produtos é R$${valorMedio}.`);
 
 
 // console.log("_______________________________");
@@ -98,28 +98,28 @@ var readline = require('readline-sync') ;
 
 // → Seu código aqui:
 
-// let despesas = {
-//   listaDespesas: [
-//     aluguel = readline.questionFloat("Digite o valor do aluguel: "),
-//     internet = readline.questionFloat("Digite o valor da internet: "),
-//     energia = readline.questionFloat("Digite o valor da energia: "),
-//     alimentacao = readline.questionFloat("Digite o valor da alimentacao: ")
-//   ]
-// };
+let despesas = {
+  listaDespesas: [
+    aluguel = readline.questionFloat("Digite o valor do aluguel: "),
+    internet = readline.questionFloat("Digite o valor da internet: "),
+    energia = readline.questionFloat("Digite o valor da energia: "),
+    alimentacao = readline.questionFloat("Digite o valor da alimentacao: ")
+  ]
+};
 
-// let totalDeDespesas = (despesas.listaDespesas[0] + despesas.listaDespesas[1] + despesas.listaDespesas[2] + despesas.listaDespesas[3]);
-// console.log(`O total de despesas é: R$${totalDeDespesas}.`);
+let totalDeDespesas = (despesas.listaDespesas[0] + despesas.listaDespesas[1] + despesas.listaDespesas[2] + despesas.listaDespesas[3]);
+console.log(`O total de despesas é: R$${totalDeDespesas}.`);
 
-// let mediaDasDespesas = (despesas.listaDespesas[0] + despesas.listaDespesas[1] + despesas.listaDespesas[2] + despesas.listaDespesas[3]) / despesas.listaDespesas.length;
-// console.log(`A media das despesas é: R$${mediaDasDespesas}.`);
+let mediaDasDespesas = (despesas.listaDespesas[0] + despesas.listaDespesas[1] + despesas.listaDespesas[2] + despesas.listaDespesas[3]) / despesas.listaDespesas.length;
+console.log(`A media das despesas é: R$${mediaDasDespesas}.`);
 
-// let salario = 5000;
-// let sobra = (salario - totalDeDespesas);
-// console.log(`A sobra é: R$${sobra}`);
+let salario = 5000;
+let sobra = (salario - totalDeDespesas);
+console.log(`A sobra é: R$${sobra}`);
 
-// console.log(`O total de despesas é: R$${totalDeDespesas}.`);
-// console.log(`A media das despesas é: R$${mediaDasDespesas}.`);
-// console.log(`O dinheiro restante é: R$${sobra}`);
+console.log(`O total de despesas é: R$${totalDeDespesas}.`);
+console.log(`A media das despesas é: R$${mediaDasDespesas}.`);
+console.log(`O dinheiro restante é: R$${sobra}`);
 
 
 console.log("_______________________________");
@@ -151,21 +151,21 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-// let jogador = {
-//   nome: readline.question("Digite o nome do jogador: "),
-//   partidasJogadas: readline.questionFloat("Digite o numero de partidas jogadas: "),
-//   estatisticas: [
-//     gols = readline.questionInt("Digite o numero de gols: "),
-//     assistencias = readline.questionInt("Digite o numero de assistencias: "),
-//   ]
-// };
+let jogador = {
+  nome: readline.question("Digite o nome do jogador: "),
+  partidasJogadas: readline.questionFloat("Digite o numero de partidas jogadas: "),
+  estatisticas: [
+    gols = readline.questionInt("Digite o numero de gols: "),
+    assistencias = readline.questionInt("Digite o numero de assistencias: "),
+  ]
+};
 
-// let participacoesEmGol = (jogador.estatisticas[0] + jogador.estatisticas[1]);
-// let mediaPorPartida = (participacoesEmGol / jogador.partidasJogadas);
+let participacoesEmGol = (jogador.estatisticas[0] + jogador.estatisticas[1]);
+let mediaPorPartida = (participacoesEmGol / jogador.partidasJogadas);
 
-// console.log(`O nome do jogador é: ${jogador.nome}.`);
-// console.log(`Participacoes em gols: ${participacoesEmGol}.`);
-// console.log(`A media por partida é: ${mediaPorPartida.toFixed(2)}.`);
+console.log(`O nome do jogador é: ${jogador.nome}.`);
+console.log(`Participacoes em gols: ${participacoesEmGol}.`);
+console.log(`A media por partida é: ${mediaPorPartida.toFixed(2)}.`);
 
 
 console.log("_______________________________");
@@ -196,30 +196,30 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-// let mercado = {
-//   produtos: [
-//     produto1 = [
-//     nome = readline.question("Digite o nome do produto: "),
-//     preco = readline.questionFloat("Digite o preco do produto: ")
-//     ],
-//     produto2 = [
-//       nome = readline.question("Digite o nome do produto: "),
-//       preco = readline.questionFloat("Digite o preco do produto: ")
-//       ],
-//       produto3 = [
-//         nome = readline.question("Digite o nome do produto: "),
-//         preco = readline.questionFloat("Digite o preco do produto: ")
-//         ]
-//   ]
-// };
+let mercado = {
+  produtos: [
+    produto1 = [
+    nome = readline.question("Digite o nome do produto: "),
+    preco = readline.questionFloat("Digite o preco do produto: ")
+    ],
+    produto2 = [
+      nome = readline.question("Digite o nome do produto: "),
+      preco = readline.questionFloat("Digite o preco do produto: ")
+      ],
+      produto3 = [
+        nome = readline.question("Digite o nome do produto: "),
+        preco = readline.questionFloat("Digite o preco do produto: ")
+        ]
+  ]
+};
 
-// let valorTotal = (mercado.produtos[0][1] + mercado.produtos[1][1] + mercado.produtos[2][1]);
-// let desconto = (valorTotal * 0.10);
-// let valorFinal = (valorTotal - desconto);
+let valorTotal = (mercado.produtos[0][1] + mercado.produtos[1][1] + mercado.produtos[2][1]);
+let desconto = (valorTotal * 0.10);
+let valorFinal = (valorTotal - desconto);
 
-// console.log(`O total da compra é: R$${valorTotal}`);
-// console.log(`O desconto do produto é: R$${desconto.toFixed(2)}`);
-// console.log(`O valor final é: R$${valorFinal}`);
+console.log(`O total da compra é: R$${valorTotal}`);
+console.log(`O desconto do produto é: R$${desconto.toFixed(2)}`);
+console.log(`O valor final é: R$${valorFinal}`);
 
 
 console.log("_______________________________");
@@ -250,21 +250,21 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-// let boletim = {
-//   notas: [
-//     nota1 = readline.questionFloat("Digite a primeira nota: "),
-//     nota2 = readline.questionFloat("Digite a segunda nota: "),
-//     nota3 = readline.questionFloat("Digite a terceira nota: "),
-//     nota4 = readline.questionFloat("Digite a quarta nota: ")
-//   ]
-// };
+let boletim = {
+  notas: [
+    nota1 = readline.questionFloat("Digite a primeira nota: "),
+    nota2 = readline.questionFloat("Digite a segunda nota: "),
+    nota3 = readline.questionFloat("Digite a terceira nota: "),
+    nota4 = readline.questionFloat("Digite a quarta nota: ")
+  ]
+};
 
-// let mediaDasNotas = (boletim.notas[0] + boletim.notas[1] + boletim.notas[2] + boletim.notas[3]) / boletim.notas.length;
-// let pontosFaltantes = 10 - mediaDasNotas;
+let mediaDasNotas = (boletim.notas[0] + boletim.notas[1] + boletim.notas[2] + boletim.notas[3]) / boletim.notas.length;
+let pontosFaltantes = 10 - mediaDasNotas;
 
-// console.log(`Notas: ${boletim.notas[0]}, ${boletim.notas[1]}, ${boletim.notas[2]}, ${boletim.notas[3]}`);
-// console.log(`Media: ${mediaDasNotas}`);
-// console.log(`Faltam ${pontosFaltantes} pontos para media 10.`);
+console.log(`Notas: ${boletim.notas[0]}, ${boletim.notas[1]}, ${boletim.notas[2]}, ${boletim.notas[3]}`);
+console.log(`Media: ${mediaDasNotas}`);
+console.log(`Faltam ${pontosFaltantes} pontos para media 10.`);
 
 
 console.log("_______________________________");
@@ -298,22 +298,22 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-// let pedido = {
-//   itens: [
-//     entrada = readline.questionInt("Digite o preco do prato de entrada: "),
-//     pratoPrincipal = readline.questionInt("Digite o preco do prato principal: "),
-//     sobremesa = readline.questionInt("Digite o preco da sobremesa: "),
-//     bebida = readline.questionInt("Digite o preco da bebida: ")
-//   ]
-// };
+let pedido = {
+  itens: [
+    entrada = readline.questionInt("Digite o preco do prato de entrada: "),
+    pratoPrincipal = readline.questionInt("Digite o preco do prato principal: "),
+    sobremesa = readline.questionInt("Digite o preco da sobremesa: "),
+    bebida = readline.questionInt("Digite o preco da bebida: ")
+  ]
+};
 
-// let subTotal = (pedido.itens[0] + pedido.itens[1] + pedido.itens[2] + pedido.itens[3]);
-// let taxaDeServico = (subTotal * 0.10);
-// let valorTotal = (subTotal + taxaDeServico);
+let subTotal = (pedido.itens[0] + pedido.itens[1] + pedido.itens[2] + pedido.itens[3]);
+let taxaDeServico = (subTotal * 0.10);
+let valorTotal = (subTotal + taxaDeServico);
 
-// console.log(`Subtotal: R$${subTotal}`);
-// console.log(`Taxa de servico: R$${taxaDeServico.toFixed(2)}`);
-// console.log(`Total a pagar: R$${valorTotal.toFixed(2)}`);
+console.log(`Subtotal: R$${subTotal}`);
+console.log(`Taxa de servico: R$${taxaDeServico.toFixed(2)}`);
+console.log(`Total a pagar: R$${valorTotal.toFixed(2)}`);
 
 
 
@@ -342,23 +342,23 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-// let analise = {
-//   numeros: [
-//     num1 = readline.questionFloat("Digite o primeiro numero: "),
-//     num2 = readline.questionFloat("Digite o segundo numero: "),
-//     num3 = readline.questionFloat("Digite o terceiro numero: "),
-//     num4 = readline.questionFloat("Digite o quarto numero: "),
-//     num5 = readline.questionFloat("Digite o quinto numero: ")
-//   ]
-// };
+let analise = {
+  numeros: [
+    num1 = readline.questionFloat("Digite o primeiro numero: "),
+    num2 = readline.questionFloat("Digite o segundo numero: "),
+    num3 = readline.questionFloat("Digite o terceiro numero: "),
+    num4 = readline.questionFloat("Digite o quarto numero: "),
+    num5 = readline.questionFloat("Digite o quinto numero: ")
+  ]
+};
 
-// let soma = (analise.numeros[0] + analise.numeros[1] + analise.numeros[2] + analise.numeros[3] + analise.numeros[4]);
-// let media = (soma / analise.numeros.length);
-// let produto = (analise.numeros[0] * analise.numeros[1] * analise.numeros[2] * analise.numeros[3] * analise.numeros[4]);
+let soma = (analise.numeros[0] + analise.numeros[1] + analise.numeros[2] + analise.numeros[3] + analise.numeros[4]);
+let media = (soma / analise.numeros.length);
+let produto = (analise.numeros[0] * analise.numeros[1] * analise.numeros[2] * analise.numeros[3] * analise.numeros[4]);
 
-// console.log(`Soma: ${soma}`);
-// console.log(`Media: ${media}`);
-// console.log(`Produto: ${produto}`);
+console.log(`Soma: ${soma}`);
+console.log(`Media: ${media}`);
+console.log(`Produto: ${produto}`);
 
 
 console.log("_______________________________");
@@ -397,9 +397,24 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let financeiro = {
+    receitas: [
+        salario = readline.questionFloat("Digite o valor do salario: "),
+        rendaExtra = readline.questionFloat("Digite o valor da renda extra: ")
+    ],
+    despesas: [
+        gastoFixo = readline.questionFloat("Digito o valor do gasto fixo: "),
+        gastoVariaveis = readline.questionFloat("Digite o valor do gasto variavel: ")
+    ]
+};
 
+let rendaTotal = (financeiro.receitas[0] + financeiro.receitas[1]);
+let gastoTotal = (financeiro.despesas[0] + financeiro.despesas[1]);
+let saldoFinal = (rendaTotal - gastoTotal);
 
-
+console.log(`Renda total: R$${rendaTotal}`);
+console.log(`Gastos totais: R$${gastoTotal}`);
+console.log(`Saldo final: R$${saldoFinal}`);
 
 
 
