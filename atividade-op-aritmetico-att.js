@@ -31,25 +31,25 @@
     var readline = require('readline-sync') ;
 
   //A) =
-  // let num1 = 18;
-  // let num2 = 5;
+  let num1 = 18;
+  let num2 = 5;
 
-  // console.log(`Cálculo: ${num1} + ${num2} = ${num1 + num2}`);
+  console.log(`Cálculo: ${num1} + ${num2} = ${num1 + num2}`);
 
-  // //B) = 
-  // console.log(`Cálculo: ${num1} - ${num2} = ${num1 - num2}`);
+  //B) = 
+  console.log(`Cálculo: ${num1} - ${num2} = ${num1 - num2}`);
 
-  // //C) =
-  // console.log(`Cálculo: ${num1} * ${num2} = ${num1 * num2}`);
+  //C) =
+  console.log(`Cálculo: ${num1} * ${num2} = ${num1 * num2}`);
 
-  // //D) =
-  // console.log(`Cálculo: ${num1} / ${num2} = ${(num1 / num2).toFixed(2)}`);
+  //D) =
+  console.log(`Cálculo: ${num1} / ${num2} = ${(num1 / num2).toFixed(2)}`);
 
-  // //E = 
-  // console.log(`Cálculo: ${num1} % ${num2} = ${num1 % num2}`);
+  //E = 
+  console.log(`Cálculo: ${num1} % ${num2} = ${num1 % num2}`);
 
-  // //F = 
-  // console.log(`Cálculo: ${num1} ** ${num2} = ${num1 ** num2}`);
+  //F = 
+  console.log(`Cálculo: ${num1} ** ${num2} = ${num1 ** num2}`);
 
 
 
@@ -68,18 +68,18 @@ console.log("_______________________________");
 // → Seu código aqui:
 
 //A) =
-// let largura = 8;
-// let altura = 5;
+let largura = 8;
+let altura = 5;
 
-// //B) = 
-// let areDoRetangulo = (largura * altura);
-// let area = areDoRetangulo;
+//B) = 
+let areDoRetangulo = (largura * altura);
+let area = areDoRetangulo;
 
-// //C) =
-// let perimetro = (2 * largura + 2 * altura);
+//C) =
+let perimetro = (2 * largura + 2 * altura);
 
-// //D) =
-// console.log(`Retângulo | Largura: ${largura} | Altura: ${altura} | Área: ${area} | Perímetro: ${perimetro}.`);
+//D) =
+console.log(`Retângulo | Largura: ${largura} | Altura: ${altura} | Área: ${area} | Perímetro: ${perimetro}.`);
 
 
 
@@ -101,19 +101,19 @@ console.log("_______________________________");
 // → Seu código aqui:
 
 //A) = 
-// let precoOriginal = 250;
+let precoOriginal = 250;
 
-// //B) = 
-// let percentualDesconto = 15
+//B) = 
+let percentualDesconto = 15
 
-// //C) =
-// let valorDesconto = precoOriginal * (percentualDesconto / 100);
+//C) =
+let valorDesconto = precoOriginal * (percentualDesconto / 100);
 
-// //D) = 
-// let precoFinal = (precoOriginal - valorDesconto);
+//D) = 
+let precoFinal = (precoOriginal - valorDesconto);
 
-// //E = 
-// console.log(`Preco original: R$ ${precoOriginal} | Desconto: R$ ${valorDesconto} | Preco final: R$ ${precoFinal}`);
+//E = 
+console.log(`Preco original: R$ ${precoOriginal} | Desconto: R$ ${valorDesconto} | Preco final: R$ ${precoFinal}`);
 
 
 console.log("_______________________________");
@@ -132,6 +132,25 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+//A) =
+let pontos = 100;
+
+//B) =
+pontos += 50;
+console.log(`Pontos apos Soma: ${pontos}`);
+
+//)C =
+pontos -= 30;
+console.log(`Pontos apos Subtracao: ${pontos}`);
+
+//D) =
+pontos *= 2;
+console.log(`Pontos apos Multiplicacao: ${pontos}`);
+
+//E) =
+pontos /= 4;
+console.log(`Pontos apos Divisao: ${pontos}`);
+
 
 console.log("_______________________________");
 
@@ -149,26 +168,26 @@ console.log("_______________________________");
 // → Seu código aqui:
 
 //A) =
-// let vidas = 3;
+let vidas = 3;
 
-// //B) = 
-// console.log(vidas);
+//B) = 
+console.log(vidas);
 
-// //C) =
-// vidas++;
-// console.log(vidas);
+//C) =
+vidas++;
+console.log(vidas);
 
-// //D) =
-// vidas--;
-// console.log(vidas);
+//D) =
+vidas--;
+console.log(vidas);
 
-// //E) =
-// let nivel = 1;
+//E) =
+let nivel = 1;
 
-// //F) = 
-// console.log(++nivel);
-// console.log(++nivel);
-// console.log(++nivel);
+//F) = 
+console.log(++nivel);
+console.log(++nivel);
+console.log(++nivel);
 
 console.log("_______________________________");
 
@@ -187,22 +206,22 @@ console.log("_______________________________");
 // → Seu código aqui:
 
 //A) = 
-// let nota = 7.3;
+let nota = 7.3;
 
-// //B) = 
-// console.log(Math.round(nota));
-// console.log(Math.floor(nota));
-// console.log(Math.ceil(nota));
+//B) = 
+console.log(Math.round(nota));
+console.log(Math.floor(nota));
+console.log(Math.ceil(nota));
 
-// //C) =
-// let temperatura = -12.5;
+//C) =
+let temperatura = -12.5;
 
-// //D) =
-// console.log(Math.abs(temperatura));
+//D) =
+console.log(Math.abs(temperatura));
 
-// //E) =
-// console.log(Math.max(42, 17, 89, 5, 63));
-// console.log(Math.min(42, 17, 89, 5, 63));
+//E) =
+console.log(Math.max(42, 17, 89, 5, 63));
+console.log(Math.min(42, 17, 89, 5, 63));
 
 
 console.log("_______________________________");
@@ -220,16 +239,16 @@ console.log("_______________________________");
 // → Seu código aqui:
 
 //A) =
-// let nota1 = readline.questionFloat("Digite o primeiro numero: ");
-// let nota2 = readline.questionFloat("Digite o segundo numero: ");
-// let nota3 = readline.questionFloat("Digite a terceira nota: ");
+let nota1 = readline.questionFloat("Digite o primeiro numero: ");
+let nota2 = readline.questionFloat("Digite o segundo numero: ");
+let nota3 = readline.questionFloat("Digite a terceira nota: ");
 
-// //B) = 
-// let media1 = (nota1 + nota2 + nota3) / 3;
+//B) = 
+let media1 = (nota1 + nota2 + nota3) / 3;
 
-// //C) = 
-// console.log(`Nota 1: ${nota1} | Nota 2: ${nota2} | Nota 3: ${nota3}
-//   Media: ${media1.toFixed(2)}`);
+//C) = 
+console.log(`Nota 1: ${nota1} | Nota 2: ${nota2} | Nota 3: ${nota3}
+  Media: ${media1.toFixed(2)}`);
 
 console.log("_______________________________");
 
@@ -249,18 +268,18 @@ console.log("_______________________________");
 // → Seu código aqui:
 
 //A) =
-// let totalCompra = readline.questionFloat("Digite o valor da compra: ");
+let totalCompra = readline.questionFloat("Digite o valor da compra: ");
 
-// //B) = 
-// let valorEntregue = readline.questionFloat("Digite o valor entregue pelo cliente: ");
+//B) = 
+let valorEntregue = readline.questionFloat("Digite o valor entregue pelo cliente: ");
 
-// //C) =
-// let troco = (valorEntregue - totalCompra);
+//C) =
+let troco = (valorEntregue - totalCompra);
 
-// //D) =
-// console.log(`Total da compra: R$${totalCompra.toFixed(2)}.`);
-// console.log(`Valor entregue: R$${valorEntregue.toFixed(2)}.`);
-// console.log(`Troco: R$${troco.toFixed(2)}`);
+//D) =
+console.log(`Total da compra: R$${totalCompra.toFixed(2)}.`);
+console.log(`Valor entregue: R$${valorEntregue.toFixed(2)}.`);
+console.log(`Troco: R$${troco.toFixed(2)}`);
 
 
 
@@ -276,20 +295,20 @@ let idades = [15, 22, 30, 18, 25];
 
 // → Seu código aqui:
 
-// //A) = 
-// console.log(29.90 + 49.99 + 15.75 + 99.90);
-// let total = precos.reduce((soma, precos) => soma + precos, 0);
-// console.log(`Total: R$${total.toFixed(2)}`);
+//A) = 
+console.log(29.90 + 49.99 + 15.75 + 99.90);
+let total = precos.reduce((soma, precos) => soma + precos, 0);
+console.log(`Total: R$${total.toFixed(2)}`);
 
-// //B) =
-// let total2 = (7.5 + 8.2 + 6.5 + 9.0);
-// console.log(total2.toFixed(2));
-// let media = (total2 / notas.length);
-// console.log(`Media: ${media.toFixed(2)}`);
+//B) =
+let total2 = (7.5 + 8.2 + 6.5 + 9.0);
+console.log(total2.toFixed(2));
+let media = (total2 / notas.length);
+console.log(`Media: ${media.toFixed(2)}`);
 
-// //C) =
-// console.log(Math.max(...idades));
-// console.log(Math.min(...idades));
+//C) =
+console.log(Math.max(...idades));
+console.log(Math.min(...idades));
 
 // //Obs: (...) Spread Operator - Espalha os valores da lista
 
@@ -348,6 +367,32 @@ console.log(`A media do ${turma.aluno2.nome} e: ${mediaAluno2.toFixed(2)}`);
 let mediaAluno3 = (turma.aluno2.notas[0] + turma.aluno1.notas[1] + turma.aluno3.notas[2]) / turma.aluno3.notas.length;
 console.log(`A media do ${turma.aluno3.nome} e: ${mediaAluno3.toFixed(2)}`);
 
+//C) =
+let mediaTurma = (mediaAluno1 + mediaAluno2 + mediaAluno3) / 3;
+console.log(mediaTurma.toFixed(2));
+
+//D) =
+console.log(Math.max(...turma.aluno1.notas));
+console.log(Math.min(...turma.aluno1.notas));
+console.log(Math.max(...turma.aluno2.notas));
+console.log(Math.min(...turma.aluno2.notas));
+console.log(Math.max(...turma.aluno3.notas));
+console.log(Math.min(...turma.aluno3.notas));
+console.log(`A nota mais alto do ${turma.aluno1.nome} é: ${Math.max(...turma.aluno1.notas)}.`)
+console.log(`A nota mais baixa do ${turma.aluno1.nome} é: ${Math.min(...turma.aluno1.notas)}.`)
+console.log(`A nota mais alto do ${turma.aluno2.nome} é: ${Math.max(...turma.aluno2.notas)}.`)
+console.log(`A nota mais baixa do ${turma.aluno2.nome} é: ${Math.min(...turma.aluno2.notas)}.`)
+console.log(`A nota mais alto do ${turma.aluno3.nome} é: ${Math.max(...turma.aluno3.notas)}.`)
+console.log(`A nota mais baixa do ${turma.aluno3.nome} é: ${Math.min(...turma.aluno3.notas)}.`)
+
+//E) =
+let todasNotas = [
+  ...turma.aluno1.notas,
+  ...turma.aluno2.notas,
+  ...turma.aluno3.notas
+];
+console.log("A nota mais alta da turma é: ", Math.max(...todasNotas));
+console.log("A nota mais baixa da turma é: ", Math.min(...todasNotas));
 
 
 console.log("_______________________________");
