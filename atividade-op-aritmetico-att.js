@@ -307,8 +307,8 @@ let media = (total2 / notas.length);
 console.log(`Media: ${media.toFixed(2)}`);
 
 //C) =
-console.log(Math.max(...idades));
-console.log(Math.min(...idades));
+console.log(Math.max(idades[0], idades[1], idades[2], idades[3], idades[4]));
+console.log(Math.min(idades[0], idades[1], idades[2], idades[3], idades[4]));
 
 // //Obs: (...) Spread Operator - Espalha os valores da lista
 
@@ -372,12 +372,12 @@ let mediaTurma = (mediaAluno1 + mediaAluno2 + mediaAluno3) / 3;
 console.log(mediaTurma.toFixed(2));
 
 //D) =
-console.log(Math.max(...turma.aluno1.notas));
-console.log(Math.min(...turma.aluno1.notas));
-console.log(Math.max(...turma.aluno2.notas));
-console.log(Math.min(...turma.aluno2.notas));
-console.log(Math.max(...turma.aluno3.notas));
-console.log(Math.min(...turma.aluno3.notas));
+console.log(Math.max(turma.aluno1.notas[0], turma.aluno1.notas[1], turma.aluno1.notas[2]));
+console.log(Math.min(turma.aluno1.notas[0], turma.aluno1.notas[1], turma.aluno1.notas[2]));
+console.log(Math.max(turma.aluno2.notas[0], turma.aluno2.notas[1], turma.aluno2.notas[2]));
+console.log(Math.min(turma.aluno2.notas[0], turma.aluno2.notas[1], turma.aluno2.notas[2]));
+console.log(Math.max(turma.aluno3.notas[0], turma.aluno3.notas[1], turma.aluno3.notas[2]));
+console.log(Math.min(turma.aluno3.notas[0], turma.aluno3.notas[1], turma.aluno3.notas[2]));
 console.log(`A nota mais alto do ${turma.aluno1.nome} é: ${Math.max(...turma.aluno1.notas)}.`)
 console.log(`A nota mais baixa do ${turma.aluno1.nome} é: ${Math.min(...turma.aluno1.notas)}.`)
 console.log(`A nota mais alto do ${turma.aluno2.nome} é: ${Math.max(...turma.aluno2.notas)}.`)
@@ -387,12 +387,25 @@ console.log(`A nota mais baixa do ${turma.aluno3.nome} é: ${Math.min(...turma.a
 
 //E) =
 let todasNotas = [
-  ...turma.aluno1.notas,
-  ...turma.aluno2.notas,
-  ...turma.aluno3.notas
+  turma.aluno1.notas[0], turma.aluno1.notas[1], turma.aluno1.notas[2],
+  turma.aluno2.notas[0], turma.aluno2.notas[1], turma.aluno2.notas[2],
+  turma.aluno3.notas[0], turma.aluno3.notas[1], turma.aluno3.notas[2]
 ];
-console.log("A nota mais alta da turma é: ", Math.max(...todasNotas));
-console.log("A nota mais baixa da turma é: ", Math.min(...todasNotas));
+console.log("A nota mais alta da turma é: ",
+  Math.max(
+    todasNotas[0], todasNotas[1], todasNotas[2],
+    todasNotas[3], todasNotas[4], todasNotas[5],
+    todasNotas[6], todasNotas[7], todasNotas[8]
+  )
+);
+
+console.log("A nota mais baixa da turma é: ",
+  Math.min(
+    todasNotas[0], todasNotas[1], todasNotas[2],
+    todasNotas[3], todasNotas[4], todasNotas[5],
+    todasNotas[6], todasNotas[7], todasNotas[8]
+  )
+);
 
 
 console.log("_______________________________");
